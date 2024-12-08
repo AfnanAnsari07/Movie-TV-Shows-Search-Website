@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/clapperboard-solid-black.svg">
+    <title>Movie Vault</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <section class="header">
+        <div class="container">
+            <header>
+                <div class="logo" id="logo">
+                    <img src="./assets/Logo.png" alt="logo">
+                </div>
+                <div class="search-bar">
+                    <input type="text" id="movieName" placeholder="Search for Movies, TV Shows and More...">
+                    <button id="click">Search</button>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <!-- main -->
+    <section class="main">
+        <div class="container">
+            <div class="welcome" id="movie-logo">
+                <img src="./assets/clapperboard-solid.svg" alt="movie logo" width="100px">
+                <br>
+                <h1>Welcome to Movie Vault</h1>
+                <h3>Search for Movies, TV Shows and More...</h3>
+            </div>
+            <div class="spinner" id="spinner"></div>
+            <div class="movie" id="movie">
+                <div class="movie-info">
+                    <h1><span id="title"></span></h1>
+                    <br>
+                    <p><span id="year"></span></p>
+                    <p><span id="rated"></span></p>
+                    <p><span id="released"></span></p>
+                    <p><span id="runtime"></span></p>
+                    <p><span id="genre"></span></p>
+                    <p><span id="director"></span></p>
+                    <p><span id="writer"></span></p>
+                    <p><span id="actors"></span></p>
+                    <p><span id="plot"></span></p>
+                    <p><span id="language"></span></p>
+                    <p><span id="country"></span></p>
+                    <p><span id="awards"></span></p>
+                    <p><span id="imdbRatings"></span></p>
+                    <p><span id="boxOffice"></span></p>
+                </div>
+                <div class="poster">
+                    <img id="poster" src="">
+                </div>
+            </div>
+            <div class="error" id="error">
+                <img src="./assets/triangle-exclamation-solid.svg" alt="error mark" width="100px">
+                <h1>ERROR !</h1>
+                <br>
+                <h3 id="error-message"></h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
